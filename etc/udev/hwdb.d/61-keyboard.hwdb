@@ -1,0 +1,17 @@
+# put in /etc/udev/hwdb.d/61-keyboard.hwdb
+# afterwards run 'sudo udevadm hwdb --update' and reboot
+
+ 
+# Asus C200 Chromebook
+# Top row keys (between ESC and power button)
+evdev:atkbd:dmi:bvn*:bvr*:bd*:svnGOOGLE*:pnSquawks:pvr*
+KEYBOARD_KEY_3b=back
+KEYBOARD_KEY_3c=forward
+KEYBOARD_KEY_3d=refresh
+KEYBOARD_KEY_3e=f11		#Fullscreen
+KEYBOARD_KEY_3f=switchvideomode
+KEYBOARD_KEY_40=brightnessdown
+KEYBOARD_KEY_41=brightnessup
+KEYBOARD_KEY_42=mute
+KEYBOARD_KEY_43=volumedown
+KEYBOARD_KEY_44=volumeup
